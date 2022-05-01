@@ -1,25 +1,19 @@
 {
   "name": "shopping-cart",
-  "version": "1.0.0",
-  "description": "using mern",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sonjoy07/shopping-cart.git"
-  },
-  "keywords": [
-    "ecommerce",
-    "shopping",
-    "cart",
-    "checkout"
-  ],
-  "author": "sonjoy",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sonjoy07/shopping-cart/issues"
-  },
-  "homepage": "https://github.com/sonjoy07/shopping-cart#readme"
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-generator": "^4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongoose": "^6.3.1",
+    "morgan": "~1.9.1"
+  }
 }
